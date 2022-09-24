@@ -41,6 +41,6 @@ async def loop():
     await channel.send(datetime.datetime.now().isoformat(), embeds=embeds)
 
 
-# token = getenv('DISCORD_BOT_TOKEN')
-# bot.run(token)
-bot.run(TOKEN)
+token = getenv('DISCORD_BOT_TOKEN')
+bot.run(token)
+# bot.run(TOKEN)
