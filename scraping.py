@@ -150,10 +150,7 @@ def scraping_FL():
 
     arrival = []
     dayFlag = False
-    itemFlag = 0
-    firstFlag = True
     newdate = date.today()
-    cnt = 0
     # 新着入荷商品
     for elem in soup.select('body > div:nth-child(4) > table > tbody > tr'):
         for data in elem.find_all('td'):
